@@ -8,10 +8,11 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    margin-top: 37.5px;
     font-family: 'Merriweather', serif;
 }
 
-.banner-content{
+.banner-content {
     padding: 13px;
 }
 
@@ -156,7 +157,7 @@
     font-weight: 600;
 }
 
-.location-content .marked {
+.marked {
     color: #F00;
 }
 
@@ -179,9 +180,126 @@
     color: #F00;
 }
 
+.bestDeal-section {
+    max-width: 1100px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-col {
+    padding-top: 48px;
+    max-width: 294.75px;
+    margin-right: 52.5px;
+}
+
+.first-col h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.first-col h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.second-col {
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.second-col img {
+    padding: 30px;
+}
+
+.third-col {
+    padding-top: 48px;
+    margin-left: 88px;
+}
+
+.third-col h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.third-col img {
+    margin-top: 33px;
+}
+
+.holiday-section {
+    max-width: 1100px;
+    margin: 120px auto;
+}
+
+.holiday-content{
+    margin: 0 auto;
+    max-width: 801px;
+    text-align: center;
+}
+
+.holiday-content h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.holiday-content h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.shopping{
+    position: relative;
+}
+
+.shopping .present{
+    position: absolute;
+    top: 140px;
+    left: -80px;
+    height: 550px;
+}
+
+.shopping .girl{
+    position: absolute;
+    top: 67px;
+    right: 0;
+}
+
+.shopping .fifty{
+    position: absolute;
+    top: 145px;
+    right: 275px;
+}
+
+.holiday-design .redbar{
+    width: 100%;
+    margin-top: 500px;
+}
+
 .portfolio-section {
     max-width: 1100px;
     margin: 120px auto;
+}
+
+.portfolio-text{
+    max-width: 672px;
 }
 
 .portfolio-section h5 {
@@ -197,15 +315,6 @@
     font-size: 36px;
     font-weight: 900;
     margin-top: 0px;
-}
-
-.portfolio-section p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    max-width: 672px;
 }
 
 .portfolio-content {
@@ -250,16 +359,6 @@
     margin-top: 30px;
 }
 
-.news-content p {
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
 .subs {
     position: relative;
 }
@@ -288,6 +387,12 @@
     font-family: Inter;
     font-size: 15px;
     font-weight: 600;
+}
+
+.subs button:hover{
+    background-color: transparent;
+    border: 1px solid #F00;
+    color: #F00;
 }
 
 .contact-details {
@@ -363,7 +468,7 @@
     border: none;
 }
 
-.contact-details a{
+.contact-details a {
     text-decoration: none;
     color: #FFF;
 }
