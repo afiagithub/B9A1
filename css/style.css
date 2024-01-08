@@ -6,7 +6,7 @@
     border-radius: 16px;
     color: white;
     text-align: center;
-    margin: 0 140px;
+    margin: 0 120px;
     font-family: 'Merriweather', serif;
 }
 
@@ -65,13 +65,15 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
-    max-width: 990px;
+    max-width: 1320px;
     margin: 120px auto;
+    border-radius: 16px;
 }
 
 .party-content {
     display: flex;
     justify-content: space-between;
+    margin: 0 120px;
 }
 
 .party-text {
@@ -108,21 +110,112 @@
     border-radius: 20px;
     background-color: black;
     padding: 10px 15px;
+    margin: 10px 15px;
 }
 
-.party-text button:hover{
+.party-text button:hover {
     background-color: transparent;
     color: #FFF;
     border: 1px solid #FFF;
 }
 
-.party-image{
+.party-image {
     padding-right: 94.5px;
     padding-top: 94.5px;
     padding-bottom: 50px;
 }
 
-.party-image img{
+.party-image img {
     width: 240px;
     height: 348.75px;
+}
+
+.location-section {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
+    max-width: 1100px;
+    margin: 120px auto;
+    border-radius: 16px;
+}
+
+.location-content {
+    padding-top: 75px;
+    text-align: center;
+}
+
+.location-content p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.location-content .marked {
+    color: #F00;
+}
+
+.location-content button {
+    margin-top: 36px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.location-content button:hover {
+    background-color: transparent;
+    border: 2px solid #F00;
+    color: #F00;
+}
+
+.portfolio-section {
+    max-width: 1100px;
+    margin: 120px auto;
+}
+
+.portfolio-section h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.portfolio-section h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.portfolio-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 672px;
+}
+
+.portfolio-content{
+    margin-top: 36px;
+}
+
+.item-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.item-row img{
+    max-width: 350px;
+}
+
+.item-row img:hover{
+    border: 3px solid #316FF6;
+    border-radius: 16px;
 }
